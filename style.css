@@ -50,8 +50,12 @@ body {
   display: table-cell;
   vertical-align: middle;
 }
+.level-bordered {
+  border: solid;
+  border-radius: 12px;
+}
 
-.start {
+.button {
   margin-top: 42px;
   background: #7AC100;
   width: 246px;
