@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "StratosSkyeng";
+  src: url("fonts/stratosskyengweb-regular.woff") format("woff");
+}
+body {
+  background-color: #004980;
+}
+
+.center {
+  position: absolute;
+  width: 480px;
+  height: 460px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+  background-color: #C2F5FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: "StratosSkyeng", bold;
+  margin-top: 42px;
+  margin-bottom: 42px;
+  font-size: 40px;
+  color: #004980;
+  text-align: center;
+}
+
+.levels {
+  display: flex;
+  gap: 20px;
+}
+
+.level {
+  background-color: white;
+  width: 98px;
+  height: 98px;
+  border-radius: 12px;
+  font-family: "StratosSkyeng", bold;
+  font-size: 64px;
+  color: #0080C1;
+  text-align: center;
+  display: table;
+  text-align: center;
+}
+.level span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.start {
+  margin-top: 42px;
+  background: #7AC100;
+  width: 246px;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  font-family: "StratosSkyeng", bold;
+  font-size: 24px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
